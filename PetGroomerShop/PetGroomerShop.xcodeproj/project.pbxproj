@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4DDDC75E22BB523200146BAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDDC75D22BB523200146BAB /* AppDelegate.swift */; };
+		4DDDC76022BB523200146BAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDDC75F22BB523200146BAB /* ViewController.swift */; };
+		4DDDC76322BB523200146BAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DDDC76122BB523200146BAB /* Main.storyboard */; };
+		4DDDC76522BB523400146BAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DDDC76422BB523400146BAB /* Assets.xcassets */; };
+		4DDDC76822BB523400146BAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DDDC76622BB523400146BAB /* LaunchScreen.storyboard */; };
+		4DDDC77322BB523400146BAB /* PetGroomerShopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDDC77222BB523400146BAB /* PetGroomerShopTests.swift */; };
+		4DDDC77E22BB523400146BAB /* PetGroomerShopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDDC77D22BB523400146BAB /* PetGroomerShopUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4DDDC76F22BB523400146BAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DDDC75222BB523200146BAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DDDC75922BB523200146BAB;
+			remoteInfo = PetGroomerShop;
+		};
+		4DDDC77A22BB523400146BAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DDDC75222BB523200146BAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DDDC75922BB523200146BAB;
+			remoteInfo = PetGroomerShop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4DDDC75A22BB523200146BAB /* PetGroomerShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetGroomerShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DDDC75D22BB523200146BAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4DDDC75F22BB523200146BAB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4DDDC76222BB523200146BAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4DDDC76422BB523400146BAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DDDC76722BB523400146BAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4DDDC76922BB523400146BAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DDDC76E22BB523400146BAB /* PetGroomerShopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetGroomerShopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DDDC77222BB523400146BAB /* PetGroomerShopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetGroomerShopTests.swift; sourceTree = "<group>"; };
+		4DDDC77422BB523400146BAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DDDC77922BB523400146BAB /* PetGroomerShopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetGroomerShopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DDDC77D22BB523400146BAB /* PetGroomerShopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetGroomerShopUITests.swift; sourceTree = "<group>"; };
+		4DDDC77F22BB523400146BAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DDDC75722BB523200146BAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DDDC76B22BB523400146BAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DDDC77622BB523400146BAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4DDDC75122BB523200146BAB = {
+			isa = PBXGroup;
+			children = (
+				4DDDC75C22BB523200146BAB /* PetGroomerShop */,
+				4DDDC77122BB523400146BAB /* PetGroomerShopTests */,
+				4DDDC77C22BB523400146BAB /* PetGroomerShopUITests */,
+				4DDDC75B22BB523200146BAB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4DDDC75B22BB523200146BAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DDDC75A22BB523200146BAB /* PetGroomerShop.app */,
+				4DDDC76E22BB523400146BAB /* PetGroomerShopTests.xctest */,
+				4DDDC77922BB523400146BAB /* PetGroomerShopUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DDDC75C22BB523200146BAB /* PetGroomerShop */ = {
+			isa = PBXGroup;
+			children = (
+				4DDDC75D22BB523200146BAB /* AppDelegate.swift */,
+				4DDDC75F22BB523200146BAB /* ViewController.swift */,
+				4DDDC76122BB523200146BAB /* Main.storyboard */,
+				4DDDC76422BB523400146BAB /* Assets.xcassets */,
+				4DDDC76622BB523400146BAB /* LaunchScreen.storyboard */,
+				4DDDC76922BB523400146BAB /* Info.plist */,
+			);
+			path = PetGroomerShop;
+			sourceTree = "<group>";
+		};
+		4DDDC77122BB523400146BAB /* PetGroomerShopTests */ = {
+			isa = PBXGroup;
+			children = (
+				4DDDC77222BB523400146BAB /* PetGroomerShopTests.swift */,
+				4DDDC77422BB523400146BAB /* Info.plist */,
+			);
+			path = PetGroomerShopTests;
+			sourceTree = "<group>";
+		};
+		4DDDC77C22BB523400146BAB /* PetGroomerShopUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4DDDC77D22BB523400146BAB /* PetGroomerShopUITests.swift */,
+				4DDDC77F22BB523400146BAB /* Info.plist */,
+			);
+			path = PetGroomerShopUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DDDC75922BB523200146BAB /* PetGroomerShop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DDDC78222BB523400146BAB /* Build configuration list for PBXNativeTarget "PetGroomerShop" */;
+			buildPhases = (
+				4DDDC75622BB523200146BAB /* Sources */,
+				4DDDC75722BB523200146BAB /* Frameworks */,
+				4DDDC75822BB523200146BAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PetGroomerShop;
+			productName = PetGroomerShop;
+			productReference = 4DDDC75A22BB523200146BAB /* PetGroomerShop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4DDDC76D22BB523400146BAB /* PetGroomerShopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DDDC78522BB523400146BAB /* Build configuration list for PBXNativeTarget "PetGroomerShopTests" */;
+			buildPhases = (
+				4DDDC76A22BB523400146BAB /* Sources */,
+				4DDDC76B22BB523400146BAB /* Frameworks */,
+				4DDDC76C22BB523400146BAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DDDC77022BB523400146BAB /* PBXTargetDependency */,
+			);
+			name = PetGroomerShopTests;
+			productName = PetGroomerShopTests;
+			productReference = 4DDDC76E22BB523400146BAB /* PetGroomerShopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4DDDC77822BB523400146BAB /* PetGroomerShopUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DDDC78822BB523400146BAB /* Build configuration list for PBXNativeTarget "PetGroomerShopUITests" */;
+			buildPhases = (
+				4DDDC77522BB523400146BAB /* Sources */,
+				4DDDC77622BB523400146BAB /* Frameworks */,
+				4DDDC77722BB523400146BAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DDDC77B22BB523400146BAB /* PBXTargetDependency */,
+			);
+			name = PetGroomerShopUITests;
+			productName = PetGroomerShopUITests;
+			productReference = 4DDDC77922BB523400146BAB /* PetGroomerShopUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DDDC75222BB523200146BAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Lee, Jeongsik";
+				TargetAttributes = {
+					4DDDC75922BB523200146BAB = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					4DDDC76D22BB523400146BAB = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 4DDDC75922BB523200146BAB;
+					};
+					4DDDC77822BB523400146BAB = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 4DDDC75922BB523200146BAB;
+					};
+				};
+			};
+			buildConfigurationList = 4DDDC75522BB523200146BAB /* Build configuration list for PBXProject "PetGroomerShop" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4DDDC75122BB523200146BAB;
+			productRefGroup = 4DDDC75B22BB523200146BAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DDDC75922BB523200146BAB /* PetGroomerShop */,
+				4DDDC76D22BB523400146BAB /* PetGroomerShopTests */,
+				4DDDC77822BB523400146BAB /* PetGroomerShopUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DDDC75822BB523200146BAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DDDC76822BB523400146BAB /* LaunchScreen.storyboard in Resources */,
+				4DDDC76522BB523400146BAB /* Assets.xcassets in Resources */,
+				4DDDC76322BB523200146BAB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DDDC76C22BB523400146BAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DDDC77722BB523400146BAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DDDC75622BB523200146BAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DDDC76022BB523200146BAB /* ViewController.swift in Sources */,
+				4DDDC75E22BB523200146BAB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DDDC76A22BB523400146BAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DDDC77322BB523400146BAB /* PetGroomerShopTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DDDC77522BB523400146BAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DDDC77E22BB523400146BAB /* PetGroomerShopUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4DDDC77022BB523400146BAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DDDC75922BB523200146BAB /* PetGroomerShop */;
+			targetProxy = 4DDDC76F22BB523400146BAB /* PBXContainerItemProxy */;
+		};
+		4DDDC77B22BB523400146BAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DDDC75922BB523200146BAB /* PetGroomerShop */;
+			targetProxy = 4DDDC77A22BB523400146BAB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4DDDC76122BB523200146BAB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DDDC76222BB523200146BAB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4DDDC76622BB523400146BAB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DDDC76722BB523400146BAB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4DDDC78022BB523400146BAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4DDDC78122BB523400146BAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4DDDC78322BB523400146BAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S4PQJQTV7S;
+				INFOPLIST_FILE = PetGroomerShop/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeongsik.lee.PetGroomerShop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4DDDC78422BB523400146BAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S4PQJQTV7S;
+				INFOPLIST_FILE = PetGroomerShop/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeongsik.lee.PetGroomerShop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4DDDC78622BB523400146BAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S4PQJQTV7S;
+				INFOPLIST_FILE = PetGroomerShopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeongsik.lee.PetGroomerShopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PetGroomerShop.app/PetGroomerShop";
+			};
+			name = Debug;
+		};
+		4DDDC78722BB523400146BAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S4PQJQTV7S;
+				INFOPLIST_FILE = PetGroomerShopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeongsik.lee.PetGroomerShopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PetGroomerShop.app/PetGroomerShop";
+			};
+			name = Release;
+		};
+		4DDDC78922BB523400146BAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S4PQJQTV7S;
+				INFOPLIST_FILE = PetGroomerShopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeongsik.lee.PetGroomerShopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PetGroomerShop;
+			};
+			name = Debug;
+		};
+		4DDDC78A22BB523400146BAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S4PQJQTV7S;
+				INFOPLIST_FILE = PetGroomerShopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeongsik.lee.PetGroomerShopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PetGroomerShop;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DDDC75522BB523200146BAB /* Build configuration list for PBXProject "PetGroomerShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DDDC78022BB523400146BAB /* Debug */,
+				4DDDC78122BB523400146BAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DDDC78222BB523400146BAB /* Build configuration list for PBXNativeTarget "PetGroomerShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DDDC78322BB523400146BAB /* Debug */,
+				4DDDC78422BB523400146BAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DDDC78522BB523400146BAB /* Build configuration list for PBXNativeTarget "PetGroomerShopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DDDC78622BB523400146BAB /* Debug */,
+				4DDDC78722BB523400146BAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DDDC78822BB523400146BAB /* Build configuration list for PBXNativeTarget "PetGroomerShopUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DDDC78922BB523400146BAB /* Debug */,
+				4DDDC78A22BB523400146BAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4DDDC75222BB523200146BAB /* Project object */;
+}
